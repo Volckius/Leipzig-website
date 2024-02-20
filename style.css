@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	position:relative;
+	overflow:hidden;
+	background-image: url('images/leipzigbgblur.png');
+	background-color: black !important;
+}
+
+title {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	text-shadow: 4px 4px 18px black;
+}
+
+.carousel {
+    width: 52%;
+    margin: 0 auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 650px;
+    width: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hr {
+	background-color: white;
+	width: 400px;
+	height: 3px;
+	margin-bottom: 21px;;
+	border-radius: 150px;
+}
+
+#collapseBtn {
+	margin-top: 15px;
+}
+
+#collapseExample{
+	background-color: rgba(0, 0, 0, 0.25);
+	padding: 14px;
+	border-radius: 21px;
+	backdrop-filter: blur(12px);
+	text-shadow: none;
+}
+
+.carousel-caption h5 {
+	text-shadow: 4px 4px 12px black;
+}
